@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Grab your plate</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/restaurent_form.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&family=Pacifico&family=Poiret+One&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="head_block">
+      <table>
+        <tr>
+          <td>
+            <span>
+              <img class="sf_img" src="/imgs/spoon_fork.png" alt="spoon_icon" />
+            </span>
+          </td>
+          <td>
+            <h1 class="eatry_t1">Eaterys</h1>
+          </td>
+          <td>
+            <h3 class="eatry_t2">/Details</h3>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="form_div1">
+      <div class="form_div1_1">
+        <form class="form" action="data.php" method="post">
+          <h3 class="heady">Details</h3>
+          <h4 class="heady_1">First Name:</h4>
+          <input class="inputs" type="text" name="fname" />
+          <h4 class="heady_1">Last Name:</h4>
+          <input class="inputs" type="text" name="lname" />
+          <h4 class="heady_1">Email-Id:</h4>
+          <input class="inputs" type="email" name="email_id" />
+          <h4 class="heady_1">Phone Number:</h4>
+          <input class="inputs" type="text" name="Ph_number" />
+          <br />
+          <input type="radio" name="foodpref" id="" />
+          <span class="food_preferance">Veg</span>
+          <input type="radio" name="foodpref" id="" />
+          <span class="food_preferance">Non_Veg</span>
+          <input type="radio" name="foodpref" id="" />
+          <span class="food_preferance">both</span>
+          <br />
+          <input id="subm" type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
